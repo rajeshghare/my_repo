@@ -2,6 +2,8 @@ trigger updateContactCountOnAccount on Contact (after insert, after update, afte
 
 Set<Id> AccountIds = new Set<Id>();
  // hello sachin
+ // hello Krishna
+
 
 if(!Trigger.isDelete){
     for (Contact ct : Trigger.new) {        
